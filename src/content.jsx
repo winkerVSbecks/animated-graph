@@ -47,23 +47,23 @@ var Content = React.createClass({
           { chartsAndGraphs }
         </div>
 
-        <div className="px4">
-          <div className="md-col-3 inline-block m1">
+        <div className="clearfix mxn1">
+          <div className="col col-4 px1">
             <div className="p1 bg-white border rounded">
               <div className="mb1 bg-blue" style={ { height: '50px' }}></div>
-              <h1 className="h5 mb0 mt0">Grid</h1>
+              <h1 className="h6 mb0 mt0">Grid</h1>
             </div>
           </div>
-          <div className="md-col-3 inline-block m1">
+          <div className="col col-4 px1">
             <div className="p1 bg-white border rounded">
               <div className="mb1 bg-green" style={ { height: '50px' }}></div>
-              <h1 className="h5 mt0 mb0">Battery</h1>
+              <h1 className="h6 mt0 mb0">Battery</h1>
             </div>
           </div>
-          <div className="md-col-3 inline-block m1">
+          <div className="col col-4 px1">
             <div className="p1 bg-white border rounded">
               <div className="mb1 bg-navy" style={ { height: '50px' }}></div>
-              <h1 className="h5 mt0 mb0">Cumulative</h1>
+              <h1 className="h6 mt0 mb0">Cumulative</h1>
             </div>
           </div>
         </div>
