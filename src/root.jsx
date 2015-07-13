@@ -13,7 +13,7 @@ var Root = React.createClass({
     return (
       <html>
         <Head { ...this.props } />
-        <body className="p3 container">
+        <body className="p2 container">
           <Header { ...this.props } />
           <Content { ...this.props } />
           <script id="initial-props" type="application/json" dangerouslySetInnerHTML={ initialProps } />
