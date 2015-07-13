@@ -56,10 +56,6 @@ var ChartsAndGraphs = React.createClass({
           size={ size }
           fill={ clrs.green }
           delay={ 500 } />
-        <LineGraph pts={ ptsCumulative }
-          size={ size }
-          stroke={ clrs.navy }
-          delay={ 100 } />
       </svg>
     );
   }
