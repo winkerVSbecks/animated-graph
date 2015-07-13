@@ -41,28 +41,42 @@ var Content = React.createClass({
       </div>
     ) : null;
 
+    var style = {
+      height: '2rem',
+      lineHeight: '2rem',
+      color: '#fff'
+    }
+
     return (
-      <div>
+      <div className="prose">
         <div>
           { chartsAndGraphs }
         </div>
 
-        <div className="clearfix mxn1">
+        <p className="mb4">You’re energy saving for this month is the equivalent of taking 🚙🚙🚙 3 Hummers off the road for a year.</p>
+
+        <div className="clearfix mxn1 mb4">
           <div className="col col-4 px1">
             <div className="p1 bg-white border rounded">
-              <div className="mb1 bg-blue" style={ { height: '50px' }}></div>
+              <div className="mb1 p1 bold bg-blue" style={ style }>
+                154 kWh
+              </div>
               <h1 className="h6 mb0 mt0">Grid</h1>
             </div>
           </div>
           <div className="col col-4 px1">
             <div className="p1 bg-white border rounded">
-              <div className="mb1 bg-green" style={ { height: '50px' }}></div>
+              <div className="mb1 p1 bold bg-green" style={ style }>
+                46.2 kWh
+              </div>
               <h1 className="h6 mt0 mb0">Battery</h1>
             </div>
           </div>
           <div className="col col-4 px1">
             <div className="p1 bg-white border rounded">
-              <div className="mb1 bg-navy" style={ { height: '50px' }}></div>
+              <div className="mb1 p1 bold bg-navy" style={ style }>
+                107.8 kWh
+              </div>
               <h1 className="h6 mt0 mb0">Cumulative</h1>
             </div>
           </div>
